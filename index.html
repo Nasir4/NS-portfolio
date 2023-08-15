@@ -1,0 +1,1892 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>Nasir Shaik</title>
+    <meta name="NS Portfolio" content="Nasir Shaik" />
+    <meta
+      name="description"
+      content="This is a Personal portfolio using html Css and Js, made by NS."
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <!-- <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" /> -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/assets/images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/assets/images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - custom font link
+  -->
+    <link rel="stylesheet" href="./assets/font/font.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/loading.svg" />
+    <link rel="preload" as="image" href="./assets/images/loading-circle.svg" />
+  </head>
+
+  <body class="active" id="top">
+    <!-- 
+    -#PRELOADING
+  -->
+
+    <div class="loading" data-loading>
+      <img
+        src="./assets/images/ns-loader.png"
+        width="55"
+        height="55"
+        alt="loading"
+        class="img"
+      />
+      <img
+        src="./assets/images/loading-circle.svg"
+        width="70"
+        height="70"
+        alt=""
+        class="circle"
+      />
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/ns-logo.png"
+            width="40"
+            height="40"
+            alt="NS home"
+          />
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <img
+            src="./assets/images/menu.svg"
+            width="17"
+            height="17"
+            alt="menu icon"
+          />
+        </button>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/ns-logo.png"
+                width="60"
+                height="60"
+                alt="Ns home"
+                class="img"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <span class="span one"></span>
+              <span class="span two"></span>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link" data-nav-link>About Me</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#summary" class="navbar-link" data-nav-link>Summary</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#skills" class="navbar-link" data-nav-link>My Skills</a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#experience" class="navbar-link" data-nav-link
+                >My Experience</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="#services" class="navbar-link" data-nav-link
+                >My Services</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="#education" class="navbar-link" data-nav-link
+                >My Education</a
+              >
+            </li>
+            <li class="navbar-item">
+              <a href="#works" class="navbar-link" data-nav-link>My Works</a>
+            </li>
+            <li class="navbar-item">
+              <a href="#footer" class="navbar-link" data-nav-link>My Details</a>
+            </li>
+          </ul>
+          <!-- 
+          <button class="login-btn">
+            <img
+              src="./assets/images/user.svg"
+              width="21"
+              height="21"
+              alt="user icon"
+            />
+
+            <span class="span">Login</span>
+          </button> -->
+
+          <p class="navbar-title">My Address</p>
+
+          <address class="navbar-text">
+            <p>Father,s Name : Shaik Abdul Halimul Hakeem (BSNL)</p>
+            <p>
+              Address: Do/No/26-2-581, 5 th Street, Jyothi Nagar Vedayapalam
+              Nelllore-524004.
+            </p>
+            <p>Nationality : Indian</p>
+            <p>Languages Known : English, Hindi and Telugu</p>
+          </address>
+
+          <p class="navbar-text">
+            Contact
+            <a href="tel:+91 9493234022" class="contact-link">9493234022</a>
+          </p>
+        </nav>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="section hero" id="home" aria-label="home">
+          <div class="container">
+            <img
+              src="./assets/images/ns-main.png"
+              width="322"
+              height="322"
+              alt=""
+              class="hero-banner"
+            />
+
+            <div class="hero-content">
+              <h1 class="h1 hero-title">Nasir Shaik</h1>
+
+              <div class="wrapper h2">
+                <strong class="strong" data-letter-effect>WebDeveloper</strong>
+                <strong class="strong" data-letter-effect>UX/designer </strong>
+                <strong class="strong" data-letter-effect
+                  >Devops Engineer</strong
+                >
+                <strong class="strong" data-letter-effect>AWS Cloud</strong>
+              </div>
+
+              <p class="hero-text">7+ Years Of Experience</p>
+            </div>
+          </div>
+
+          <img
+            src="./assets/images/hero-shape.svg"
+            width="211"
+            height="189"
+            alt=""
+            class="shape"
+          />
+        </section>
+
+        <!-- #About -->
+
+        <section class="section about" id="about" aria-label="about me">
+          <div class="container">
+            <div class="about-content">
+              <h2 class="h2 section-title" data-reveal="right">
+                Hi. I’m <br />
+                Nasir Shaik
+              </h2>
+
+              <div class="wrapper has-before" data-reveal="right">
+                <p class="section-text">
+                  A passionate
+                  <em class="em">Full Stack Web Developer</em>
+                  who are working in this field for
+                  <em class="em">last 7 years.</em>
+                  I’m ready to give you my best.
+                </p>
+              </div>
+            </div>
+
+            <section class="about-banner" data-reveal="left">
+              <div
+                class="img-holder has-before"
+                style="--width: 512; --height: 684"
+              >
+                <img
+                  src="./assets/images/ns-my-img.jpg"
+                  width="512"
+                  height="684"
+                  loading="lazy"
+                  alt="Nasir Shaik"
+                  class="img-cover"
+                />
+              </div>
+
+              <!-- <img
+                src="./assets/images/about-shape-1.png"
+                width="178"
+                height="178"
+                loading="lazy"
+                alt=""
+                class="shape shape-1"
+              /> -->
+
+              <img
+                src="./assets/images/about-shape-2.svg"
+                width="659"
+                height="653"
+                loading="lazy"
+                alt=""
+                class="shape shape-2"
+              />
+            </section>
+
+            <img
+              src="./assets/images/about-shape-3.svg"
+              width="239"
+              height="232"
+              loading="lazy"
+              alt=""
+              class="shape shape-3"
+            />
+          </div>
+        </section>
+
+        <!-- #summary -->
+        <h4 id="sn-h4">PROFESSIONAL &nbsp; SUMMARY &nbsp; :</h4>
+        <section class="section about" id="summary" aria-label="summary">
+          <div class="container">
+            <div class="about-content">
+              <p class="section-title" data-reveal="right">
+                5 years of experience as a UI Developer. Have worked on
+                development of web templates & Web Applications
+              </p>
+              <p class="section-title" data-reveal="right">
+                Good experienced in CSS framework Bootstrap, Materialize,
+                Tailwind
+              </p>
+              <p class="section-title" data-reveal="right">
+                Hands-on experience in solving cross-browser compatibility
+                Issues.
+              </p>
+              <p class="section-title" data-reveal="right">
+                Extensively worked on PSD to HTML & Responsive Web Designer
+              </p>
+              <p class="section-title" data-reveal="right">
+                Good experience in NODE js Express and MongoDb.
+              </p>
+              <p class="section-title" data-reveal="right">
+                Extensively worked on JavaScript, jQuery and jQuery-UI.
+              </p>
+              <p class="section-title" data-reveal="right">
+                Experience in version control like Git.
+              </p>
+              <p class="section-title" data-reveal="right">
+                Highly motivated UI Designer with strong Analytical and
+                Development skills.
+              </p>
+              <p class="section-title" data-reveal="right">
+                Built Continuous Integration environment (Jenkins). and
+                Continuous delivery environment (Ansible,yum)
+              </p>
+              <p class="section-title" data-reveal="right">
+                Integrated delivery (CI and CD process) Using Jenkins and
+                Ansible
+              </p>
+              <p class="section-title" data-reveal="right">
+                Involved in DevOps migration/automation processes for build and
+                deploy systems.
+              </p>
+            </div>
+
+            <section class="about-banner" data-reveal="left">
+              <div class="has-before" style="--width: 512; --height: 200">
+                <!-- <h4>PROFESSIONAL SUMMARY &nbsp; :</h4> -->
+              </div>
+            </section>
+
+            <img
+              src="./assets/images/about-shape-3.svg"
+              width="239"
+              height="232"
+              loading="lazy"
+              alt=""
+              class="shape shape-3"
+            />
+          </div>
+        </section>
+
+        <!-- #skills -->
+        <h2 style="text-align: center">SOFTWARE SKILLS</h2>
+
+        <section class="section about" id="skills" aria-label="skills">
+          <div class="container">
+            <div class="about-content">
+              <p class="section-title" data-reveal="right">
+                HTML, JavaScript, HTML5, CSS3, RWD
+              </p>
+              <p class="section-title" data-reveal="right">
+                React.js, Redux, Jquery.
+              </p>
+              <p class="section-title" data-reveal="right">Angular.</p>
+              <p class="section-title" data-reveal="right">Node.js, Express.</p>
+              <p class="section-title" data-reveal="right">MongoDB, Firebase</p>
+              <p class="section-title" data-reveal="right">
+                Bootstrap, Materialize, Tailwind
+              </p>
+              <p class="section-title" data-reveal="right">
+                Photoshop, Adobe XD, Figma
+              </p>
+              <p class="section-title" data-reveal="right">GIT</p>
+              <p class="section-title" data-reveal="right">Linux, Windows</p>
+              <p class="section-title" data-reveal="right">AWS</p>
+              <p class="section-title" data-reveal="right">VM and Docker</p>
+              <p class="section-title" data-reveal="right">Shell</p>
+              <p class="section-title" data-reveal="right">Ansible</p>
+              <p class="section-title" data-reveal="right">Jenkins</p>
+              <p class="section-title" data-reveal="right">Nagios</p>
+            </div>
+
+            <section class="about-banner ns-banner" data-reveal="left">
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Frontend Languages &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Frontend JavaScript Libraries &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Frontend JavaScript Frameworks &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Backend Languages &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Database &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>CSS Framework &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Designing Tools &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Version Control &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Operating Systems &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Cloud Platforms &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Virtualization Technologies &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Scripting Languages &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Configuration Management Tools &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Continuous Integration Tools &nbsp; :</h4>
+              </div>
+              <div class="has-before" style="--width: 512; --height: 100">
+                <h4>Monitoring Tools &nbsp; :</h4>
+              </div>
+            </section>
+
+            <img
+              src="./assets/images/about-shape-3.svg"
+              width="239"
+              height="232"
+              loading="lazy"
+              alt=""
+              class="shape shape-3"
+            />
+          </div>
+        </section>
+
+        <!-- #experience -->
+
+        <section
+          class="section service"
+          id="service"
+          aria-labelledby="service-lable"
+        >
+          <p class="section-subtitle container" id="experience">
+            PROFESSIONAL WORK EXPERIENCE
+          </p>
+
+          <ul class="service-list">
+            <li data-reveal>
+              <div class="service-card container">
+                <div>
+                  <h3 class="h4 card-title">Birlasoft Limited, Hyderabad</h3>
+
+                  <p class="card-subtitle">
+                    Worked As Devops/Aws Engineer, From May 2021 to 2022 Dec
+                  </p>
+                  <p class="card-subtitle">Project : Hospital Management</p>
+                  <p class="card-subtitle">Role: Devops Engineer</p>
+                  <p class="card-subtitle">Responsibilities</p>
+                  <p class="card-subtitle">
+                    Built Continuous Integration environment (Jenkins). and
+                    Continuous delivery environment
+                  </p>
+                  <p class="card-subtitle">
+                    Integrated delivery (CI and CD process)
+                  </p>
+                  <p class="card-subtitle">
+                    Involved in DevOps migration/automation processes for build
+                    and deploy systems
+                  </p>
+                  <p class="card-subtitle">
+                    Provided installation, configuration & maintenance of
+                    pre-prod and production Cloud environments including
+                    services such as Tomcat, Apache, MySQL
+                  </p>
+                  <p class="card-subtitle">
+                    Performed deployment, ongoing maintenance & configuration of
+                    systems for maximum availability, security, performance, and
+                    documentation in a Linux based production environment.
+                  </p>
+                  <p class="card-subtitle">
+                    Monitor the UAT/Production Environments for any down time
+                    issues by performing regular cron job updates in servers
+                  </p>
+                  <p class="card-subtitle">
+                    Created Jobs in Jenkins, and set up global permission and
+                    scheduling jobs
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="service-card container">
+                <div>
+                  <h3 class="h4 card-title">
+                    Working as React.js UI Developer in Honeycomb Pvt Ltd,
+                    Bangalore
+                  </h3>
+
+                  <p class="card-subtitle">
+                    Worked as React.js UI Developer in Honeycomb Pvt Ltd,
+                    Bangalore, From FEB 2018 to 2021 March
+                  </p>
+                  <p class="card-subtitle">
+                    Project : Beauty e-commerce website
+                  </p>
+                  <p class="card-subtitle">Role: MERN Developer.</p>
+                  <p class="card-subtitle">Responsibilities:-</p>
+                  <p class="card-subtitle">
+                    Develop high performance customer facing e-commerce
+                    application using ReactJS, Redux-saga, React Hooks,
+                    React-Router, JavaScript, HTML5, CSS3, SASS, Bootstrap.
+                  </p>
+                  <p class="card-subtitle">
+                    Built custom components for UX-Library consisting Accordion,
+                    Filters, Dropdown, Carousel, Button, Checkbox, Input, Icons.
+                  </p>
+                  <p class="card-subtitle">
+                    Developed custom API layer to handle all CRUD transactions,
+                    JWT token management and implemented interceptors to embed
+                    custom headers.
+                  </p>
+                  <p class="card-subtitle">
+                    Exclusively used React-Hooks to handle application
+                    life-cycle processes
+                  </p>
+                  <p class="card-subtitle">
+                    Convert the html page to a React Single Page Application.
+                  </p>
+                  <p class="card-subtitle">
+                    Convert the html page to a React Single Page Application.
+                  </p>
+                  <p class="card-subtitle">
+                    Set up UI structure using React and NPM tools along with
+                    along with Webpack module bundler for easily organizing the
+                    multi-page web application.
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="service-card container">
+                <div>
+                  <h3 class="h4 card-title">
+                    RedBerry Software Technologies,Telangana
+                  </h3>
+
+                  <p class="card-subtitle">
+                    Worked as React.js Front-End Developer in RedBerry Software
+                    Technologies Telangana, From March 2016 to 2018 Jan
+                  </p>
+                  <p class="card-subtitle">
+                    Project : Health Care System Project
+                  </p>
+                  <p class="card-subtitle">Role: Developer.</p>
+                  <p class="card-subtitle">Responsibilities:-</p>
+                  <p class="card-subtitle">
+                    Involved in conversion of PSD to React Ui Components
+                  </p>
+                  <p class="card-subtitle">
+                    Developing new user-facing features using React.js
+                  </p>
+                  <p class="card-subtitle">
+                    Building reusable components and front-end libraries for
+                    future use
+                  </p>
+                  <p class="card-subtitle">
+                    Translating designs and wireframes into high quality code
+                  </p>
+                  <p class="card-subtitle">
+                    Optimize components to work seamlessly across different
+                    browsers and devices
+                  </p>
+                  <p class="card-subtitle">
+                    Proper user information authentication
+                  </p>
+                </div>
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="service-card container">
+                <div>
+                  <h3 class="h4 card-title">
+                    KngInfo Tech Software Soulations, Nellore
+                  </h3>
+
+                  <p class="card-subtitle">From Jan 2014 to Jan 2015</p>
+                  <p class="card-subtitle">
+                    Project : Developing Web Templates.
+                  </p>
+                  <p class="card-subtitle">Role: Ui / Ux Designer</p>
+                  <p class="card-subtitle">Responsibilities</p>
+                  <p class="card-subtitle">
+                    Involved in conversion of PSD to HTML.
+                  </p>
+                  <p class="card-subtitle">
+                    Implemented CSS Box Model and styled web pages using CSS
+                    preprocessor SASS and effectively used mixins, functions,
+                    custom grid systems, grid-area concepts and flexbox for
+                    fluid-responsive application
+                  </p>
+                  <p class="card-subtitle">
+                    Developed and designed new web interfaces and layouts
+                  </p>
+                  <p class="card-subtitle">
+                    Developed and maintained web sites
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- 
+        - #SERVICES
+      -->
+
+        <section
+          class="section category"
+          aria-label="services category"
+          id="services"
+        >
+          <div class="container">
+            <ul class="category-list">
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Web Templets,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns1.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Landscape"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">React js Auth,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns2.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Model"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Angular APP,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns3.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Street"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">MongoDb,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns4.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Product"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Bootstrap,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns5.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Fashion"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Tailwind,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns6.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Film"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Firebase,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns7.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Architecture"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Express js,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns8.jpg"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Event"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">AWS,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns9.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Wedding"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Nodejs,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns10.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="People"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Jenkins,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns11.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Event"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Ansible,</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns12.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Food"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+
+              <li class="category-item" data-reveal>
+                <a href="#" class="category-card">
+                  <h3 class="h4 card-title">Git & Git Hub.</h3>
+
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 600; --height: 690"
+                  >
+                    <img
+                      src="./assets/images/ns13.png"
+                      width="600"
+                      height="690"
+                      loading="lazy"
+                      alt="Health & Wellnes"
+                      class="img-cover"
+                    />
+                  </figure>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- #Education -->
+
+        <section
+          class="section service"
+          id="service"
+          aria-labelledby="eduction-lable"
+        >
+          <h4 class="section-subtitle container" id="education">
+            My Educution
+          </h4>
+
+          <ul class="service-list">
+            <li data-reveal>
+              <div class="service-card container">
+                <div>
+                  <h3 class="h5 card-title">
+                    All India Institute of Technology (AIIT), Hyderabad
+                  </h3>
+
+                  <p class="card-subtitle">
+                    (B.Tech – CSE) Year Of 2019 to 2013
+                  </p>
+                  <p class="card-subtitle">Total Aggregate 76%</p>
+                </div>
+
+                <a href="#" class="btn-icon" aria-label="See more">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="20"
+                    viewBox="0 0 43 20"
+                    fill="none"
+                  >
+                    <path d="M0 10H41" stroke="white" stroke-width="2" />
+                    <path
+                      d="M33 1L41.9 10.2727L33 19"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="service-card container">
+                <div>
+                  <h3 class="h5 card-title">Board of Intermediate (NIOS)</h3>
+
+                  <p class="card-subtitle">( MPC) Year Of 2008 to 2009</p>
+                  <p class="card-subtitle">Total Marks 67%</p>
+                </div>
+
+                <a href="#" class="btn-icon" aria-label="See more">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="20"
+                    viewBox="0 0 43 20"
+                    fill="none"
+                  >
+                    <path d="M0 10H41" stroke="white" stroke-width="2" />
+                    <path
+                      d="M33 1L41.9 10.2727L33 19"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="service-card container">
+                <div>
+                  <h3 class="h5 card-title">Diploma in Multimedia</h3>
+
+                  <p class="card-subtitle">
+                    Siddardha Multimedia, Nellore in 2009
+                  </p>
+                </div>
+
+                <a href="#" class="btn-icon" aria-label="See more">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="20"
+                    viewBox="0 0 43 20"
+                    fill="none"
+                  >
+                    <path d="M0 10H41" stroke="white" stroke-width="2" />
+                    <path
+                      d="M33 1L41.9 10.2727L33 19"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+
+            <li data-reveal>
+              <div class="service-card container">
+                <div>
+                  <h3 class="h5 card-title">Sree Simhapuri Day School</h3>
+
+                  <p class="card-subtitle">(SSC) Year Of 2006</p>
+                  <p class="card-subtitle">Total Marks 53%</p>
+                </div>
+
+                <a href="#" class="btn-icon" aria-label="See more">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="43"
+                    height="20"
+                    viewBox="0 0 43 20"
+                    fill="none"
+                  >
+                    <path d="M0 10H41" stroke="white" stroke-width="2" />
+                    <path
+                      d="M33 1L41.9 10.2727L33 19"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- 
+        - #works
+      -->
+
+        <section
+          class="section portfolio"
+          id="works"
+          aria-labelledby="portfolio-label"
+        >
+          <div class="container">
+            <div class="portfolio-list">
+              <h2 class="h2 section-title" id="portfolio-label" data-reveal>
+                My Recent Work.
+              </h2>
+              <div class="wrapper">
+                <h3 style="text-align: center">HTML CSS JS Projects</h3>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-port2.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Social App"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir4.github.io/Ns-Social-Media-ui-designe/Portfolio-Media-App/"
+                        class="card-title"
+                        target="_blank"
+                        >Social Media App</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click to View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir4.github.io/Ns-Social-Media-ui-designe/Portfolio-Media-App/"
+                    class="btn-icon"
+                    aria-label="See more"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-port3.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="News Blog"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir4.github.io/newsblog/"
+                        class="card-title"
+                        >News Blog</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click to View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir4.github.io/newsblog/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-port4.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Book website"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir4.github.io/BookStore/"
+                        class="card-title"
+                        >Book Library Website</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click to View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir4.github.io/newsblog/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-port8.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Social Login"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir4.github.io/socialmedia-login-theam/"
+                        class="card-title"
+                        target="_blank"
+                        >Social Login Website</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click to View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir4.github.io/socialmedia-login-theam/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-firebse-3.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Social Login"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://fireauth-1a8a2.web.app/login"
+                        class="card-title"
+                        target="_blank"
+                        >Firebase Login Website</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click to View</p>
+                  </div>
+
+                  <a
+                    href="https://fireauth-1a8a2.web.app/login"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-firebase-2.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Social Login"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir-bookstore.web.app/"
+                        class="card-title"
+                        target="_blank"
+                        >Book Store Website</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click to View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir-bookstore.web.app/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-heroko-Traveler-app.jpg"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Social Login"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://infinite-stream-97092.herokuapp.com/"
+                        class="card-title"
+                        target="_blank"
+                        >Traveler App MERN Stack</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click to View</p>
+                  </div>
+
+                  <a
+                    href="https://infinite-stream-97092.herokuapp.com/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+
+              <div class="wrapper">
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-port6.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Pokoman"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir4.github.io/pokomon-website/"
+                        class="card-title"
+                        >Pokoman Game</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click To View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir4.github.io/pokomon-website/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-port5.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Jumbo Barger"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir4.github.io/Piza-Home/"
+                        class="card-title"
+                        >GSP Food Website</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click To View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir4.github.io/Piza-Home/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-port7.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Company Website"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir4.github.io/pscreativewebcompany/"
+                        class="card-title"
+                        >Company Website</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click To View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir4.github.io/Piza-Home/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-port10.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Mobile Website"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://nasir4.github.io/movie-app-design/"
+                        class="card-title"
+                        >Mobile Designing</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click To View</p>
+                  </div>
+
+                  <a
+                    href="https://nasir4.github.io/movie-app-design/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <h2>Firebase Works</h2>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-firebase-1.png"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Firebase Website"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://fireauth-1a8a2.web.app/login"
+                        class="card-title"
+                        target="_blank"
+                        >Best Holiday Trip</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click To View</p>
+                  </div>
+
+                  <a
+                    href="https://fireauth-1a8a2.web.app/login"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-heroko-hootelbooking.jpg"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Heruko Website"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="https://logins-apps.herokuapp.com/"
+                        class="card-title"
+                        target="_blank"
+                        >Hotel Booking App with MERN Stack</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click To View</p>
+                  </div>
+
+                  <a
+                    href="https://logins-apps.herokuapp.com/"
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+
+                <div class="portfolio-card" data-reveal>
+                  <figure
+                    class="card-banner img-holder has-before"
+                    style="--width: 600; --height: 400"
+                  >
+                    <img
+                      src="./assets/images/ns-heroko-food-delivery-app.jpg"
+                      width="600"
+                      height="400"
+                      loading="lazy"
+                      alt="Heruko Website"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div class="card-content">
+                    <h3 class="h4">
+                      <a
+                        href="
+                        https://tranquil-beyond-54874.herokuapp.com/
+                        "
+                        class="card-title"
+                        target="_blank"
+                        >Food Delivery App with MERN Stack</a
+                      >
+                    </h3>
+
+                    <p class="card-tag">Click To View</p>
+                  </div>
+
+                  <a
+                    href="
+                    https://tranquil-beyond-54874.herokuapp.com/
+                    "
+                    class="btn-icon"
+                    aria-label="See more"
+                    target="_blank"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="43"
+                      height="20"
+                      viewBox="0 0 43 20"
+                      fill="none"
+                    >
+                      <path d="M0 10H41" stroke="black" stroke-width="2" />
+                      <path
+                        d="M33 1L41.9 10.2727L33 19"
+                        stroke="black"
+                        stroke-width="2"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <img
+              src="./assets/images/portfolio-shape.svg"
+              width="286"
+              height="232"
+              loading="lazy"
+              alt=""
+              class="shape"
+            />
+          </div>
+        </section>
+      </article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer" id="footer">
+      <div class="footer-top section" id="contact">
+        <div class="container">
+          <p class="section-subtitle" data-reveal>Contact Me</p>
+
+          <!-- <h2 class="h2 section-title" data-reveal>
+            Work inquiry, Job oportunities? Send Message.
+          </h2> -->
+          <h4>Name : Nasir Shaik</h4>
+          <h5>Address : Jyothi Nagar, Vedayapalam Nellore-524004</h5>
+          <h5>Mobile : +91 9493234022</h5>
+          <h5>Gmail : Nasir4urfrnd@gmail.com</h5>
+          <h5><a href="https://github.com/Nasir4">My GitHub Handle</a></h5>
+          <h5>
+            <a href="https://www.linkedin.com/in/nasir-shaik-330a4691"
+              >My Linkedin</a
+            >
+          </h5>
+
+          <a href="#" class="btn-icon" data-reveal>
+            <img
+              src="./assets/images/arrow-forward.svg"
+              width="43"
+              height="20"
+              loading="lazy"
+              alt="arrow-forward icon"
+            />
+          </a>
+
+          <img
+            src="./assets/images/footer-shape.svg"
+            width="185"
+            height="134"
+            loading="lazy"
+            alt=""
+            class="shape"
+          />
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/ns-logo.png"
+              width="40"
+              height="40"
+              loading="lazy"
+              alt="Nasir home"
+            />
+          </a>
+
+          <ul class="social-list">
+            <li>
+              <p>Nasir Shaik</p>
+            </li>
+          </ul>
+
+          <p class="copyright">Made with love</p>
+        </div>
+      </div>
+
+      <div class="footer-bg has-before">
+        <img
+          src="./assets/images/ns14.jpg"
+          width="1920"
+          height="1135"
+          loading="lazy"
+          alt="photography"
+          class="img-cover"
+        />
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn"
+      aria-label="back to top"
+      data-back-top-btn
+      >0%</a
+    >
+
+    <!-- 
+    - #CUSTOM CURSOR
+  -->
+
+    <div class="cursor" data-cursor></div>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
